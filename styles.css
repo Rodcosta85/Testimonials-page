@@ -1,0 +1,801 @@
+:root {
+    --moderate-violet: hsl(263, 55%, 52%);
+    --grayish-blue: hsl(217, 19%, 35%);
+    --blackish-blue: hsl(217, 19%, 35%);
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+p, h1 {
+        font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.profile-pic {
+        width: 28px;
+        height: 28px;
+        border-radius: 99px;
+}
+
+
+@media (min-width: 375px) {
+    body {
+        width: 1440px;
+        height: 900px;
+        background-color: var(--light-grayish-blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        width: 1110px;
+        height: 596px;
+        margin: 0;
+        padding: 0;
+        background-color: var(--light-grayish-blue);
+        display: grid;
+        grid-template-columns: 255px 255px 255px 255px;
+        grid-template-rows: 282px 266px;
+        gap: 24px;
+    }
+
+    #purple-div {
+        width: 532px;
+        height: 281px;
+        padding: 1px;
+        border-radius: 8px;
+        background-color: var(--moderate-violet);
+        grid-row: 1/1;
+        grid-column: 1/3;
+    }
+
+    #d-img-name {
+        width: 121px;
+        height: 28px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 190px;
+        left: 197px;
+    }
+
+    #daniel-pic {
+        border: 2.5px solid rgba(255, 255, 255, 0.301);
+    }
+
+    #first-name-ver {
+        width: 121px;
+        height: 28px;
+        margin: 0 0 0 17.5px;
+    }
+
+    #d-name {
+        width: 73px;
+        height: 13px;
+        color: white;
+        margin: 0 0 4px 0;
+        font-size: 13px;
+    }
+
+    #is-d-ver {
+        width: 76px;
+        height: 11px;
+        color: white;
+        opacity: 50%;
+        margin: 0;
+        font-size: 11px;
+    }
+
+    #daniel-header {
+        width: 471px;
+        height: 72px;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        font-weight: 600;
+        position: absolute;
+        top: 236px;
+        left: 197px;
+    }
+
+    #daniel-comment {
+        width: 476px;
+        height: 90px;
+        position: absolute;
+        top: 324px;
+        left: 197px;
+        line-height: 18px;
+        margin: 0;
+        padding: 0;
+        color: white;
+        opacity: 70%;
+        font-size: 13px;
+    }
+
+    #quotes {
+        width: 104px;
+        height: 102px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 160px;
+        left: 521px;
+        color: var(--white);
+    }
+
+    #grey-div {
+        width: 254px;
+        height: 281px;
+        padding: 1px;
+        border-radius: 8px;
+        background-color: var(--blackish-blue);
+        grid-row: 1/1;
+        grid-column: 3/4;
+    }
+
+    #jon-img-name {
+        width: 136px;
+        height: 28px;
+        position: absolute;
+        top: 190px;
+        left: 767px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #third-name-ver {
+        width: 91px;
+        height: 28px;
+        margin: 0 0 0 17.5px;
+    }
+
+    #jon-name {
+        width: 90px;
+        height: 13px;
+        color: var(--white);
+        margin: 0 0 4px 0;
+        font-size: 13px;
+    }
+
+    #is-jon-ver {
+        width: 76px;
+        height: 11px;
+        color: var(--white);
+        opacity: 50%;
+        margin: 0;
+        font-size: 11px;
+    }
+
+    #jon-header {
+        width: 191px;
+        height: 72px;
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--white);
+        position: absolute;
+        top: 236px;
+        left: 767px;
+        margin: 0;
+    }
+
+    #jon-comment {
+        width: 191px;
+        height: 90px;
+        font-size: 13px;
+        line-height: 18px;
+        color: var(--white);
+        opacity: 70%;
+        position: absolute;
+        top: 324px;
+        left: 767px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    #right-white-div {
+        width: 253px;
+        height: 571px;
+        padding: 1px;
+        border-radius: 8px;
+        background-color: var(--white);
+        grid-row: 1/2;
+        grid-column: 4/4;
+    }
+
+    #kira-img-name {
+        width: 121px;
+        height: 28px;
+        position: absolute;
+        top: 190px;
+        left: 1052px;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    #second-name-ver {
+        width: 76px;
+        height: 28px;
+        margin: 0 0 0 17.5px;
+    }
+
+    #kira-name {
+        width: 60px;
+        height: 13px;
+        color: var(--blackish-blue);
+        margin: 0 0 4px 0;
+        font-size: 13px;
+    }
+
+    #is-kira-ver {
+        width: 76px;
+        height: 11px;
+        color: var(--blackish-blue);
+        opacity: 50%;
+        margin: 0;
+        font-size: 11px;
+    }
+
+    #kira-header {
+        width: 191px;
+        height: 72px;
+        font-size: 20px;
+        font-weight: 600;
+        position: absolute;
+        top: 236px;
+        left: 1052px;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    #kira-comment {
+        width: 191px;
+        height: 378px;
+        font-size: 13px;
+        line-height: 18px;
+        opacity: 70%;
+        position: absolute;
+        top: 332px;
+        left: 1052px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #black-div {
+        width: 532px;
+        height: 265px;
+        padding: 1px;
+        border-radius: 8px;
+        background-color: #19202D;
+        grid-row: 2/2;
+        grid-column: 2/3;
+    }
+
+    #pat-img-name {
+        width: 124px;
+        height: 28px;
+        position: absolute;
+        top: 496px;
+        left: 482px;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    #pat-pic {
+        border: 2.5px solid var(--moderate-violet);
+    }
+
+    #fourth-name-ver {
+        width: 79px;
+        height: 28px;
+        margin: 0 0 0 17.5px;
+    }
+
+    #pat-name {
+        width: 79px;
+        height: 13px;
+        color: var(--white);
+        margin: 0 0 4px 0;
+        font-size: 13px;
+    }
+
+    #is-pat-ver {
+        width: 76px;
+        height: 11px;
+        color: var(--white);
+        opacity: 50%;
+        margin: 0;
+        font-size: 11px;
+    }
+
+    #pat-header {
+        width: 476px;
+        height: 72px;
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--white);
+        position: absolute;
+        top: 542px;
+        left: 482px;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    #pat-comment {
+        width: 476px;
+        height: 72px;
+        font-size: 13px;
+        line-height: 18px;
+        color: var(--white);
+        opacity: 70%;
+        position: absolute;
+        top: 638px;
+        left: 482px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #left-white-div {
+        width: 255px;
+        height: 266px;
+        padding: 1px;
+        border-radius: 8px;
+        background-color: var(--white);
+        grid-row: 2/2;
+        grid-column: 1/2;
+    }
+
+    #jean-img-name {
+        width: 134px;
+        height: 28px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 496px;
+        left: 197px;
+    }
+
+    #last-name-ver {
+        width: 100px;
+        height: 28px;
+        margin: 0 0 0 17.5px;
+    }
+
+    #jean-name {
+        width: 89px;
+        height: 15px;
+        color: var(--blackish-blue);
+        margin: 0 0 2px 0;
+        font-size: 13px;
+    }
+
+    #is-jean-ver {
+        width: 76px;
+        height: 11px;
+        color: var(--blackish-blue);
+        opacity: 50%;
+        margin: 0;
+        font-size: 11px;
+    }
+
+    #jeanette-header {
+        width: 191px;
+        height: 72px;
+        font-size: 20px;
+        font-weight: 600;
+        position: absolute;
+        top: 542px;
+        left: 197px;
+        margin: 0;
+        padding: 0;
+        color: var(--grayish-blue);
+    }
+
+    #jeanette-comment {
+        width: 191px;
+        height: 72px;
+        font-size: 13px;
+        line-height: 18px;
+        opacity: 70%;
+        position: absolute;
+        top: 638px;
+        left: 197px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 375px) {
+    body {
+        width: 375px;
+        height: 1966px;
+        background-color: var(--light-grayish-blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        width: 327px;
+        height: 1824px;
+        display: grid;
+        grid-template-rows: 444px 240px 222px 384px 438px;
+        grid-template-columns: 327px;
+        gap: 24px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #purple-div {
+        width: 326px;
+        height: 443px;
+        padding: 1px;
+        border-radius: 8px;
+        background-color: var(--moderate-violet);
+        grid-row: 1/2;
+    }
+
+    #d-img-name {
+        width: 121px;
+        height: 28px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 97px;
+        left: 56px;
+    }
+
+    #daniel-pic {
+        border: 2.5px solid rgba(255, 255, 255, 0.301);
+    }
+
+    #first-name-ver {
+        width: 76px;
+        height: 28px;
+        margin: 0 0 0 17.5px;
+    }
+
+    #d-name {
+        width: 73px;
+        height: 13px;
+        color: white;
+        margin: 0 0 4px 0;
+        font-size: 13px;
+    }
+
+    #is-d-ver {
+        width: 76px;
+        height: 11px;
+        color: white;
+        opacity: 50%;
+        margin: 0;
+        font-size: 11px;
+    }
+
+    #daniel-header {
+        width: 263px;
+        height: 120px;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        font-weight: 600;
+        position: absolute;
+        top: 143px;
+        left: 56px;
+    }
+
+    #daniel-comment {
+        width: 247px;
+        height: 180px;
+        position: absolute;
+        top: 303px;
+        left: 56px;
+        line-height: 18px;
+        margin: 0;
+        padding: 0;
+        color: white;
+        opacity: 70%;
+        font-size: 13px;
+    }
+
+    #quotes {
+        width: 96px;
+        height: 93px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        left: 199px;
+        color: var(--white);
+    }
+
+    #grey-div {
+        width: 326px;
+        height: 239px;
+        padding: 1px;
+        border-radius: 8px;
+        background-color: var(--blackish-blue);
+        grid-row: 2/3;
+    }
+
+    #jon-img-name {
+        width: 136px;
+        height: 28px;
+        position: absolute;
+        top: 565px;
+        left: 56px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #third-name-ver {
+        width: 91px;
+        height: 28px;
+        margin: 0 0 0 17.5px;
+    }
+
+    #jon-name {
+        width: 90px;
+        height: 13px;
+        color: var(--white);
+        margin: 0 0 4px 0;
+        font-size: 13px;
+    }
+
+    #is-jon-ver {
+        width: 76px;
+        height: 11px;
+        color: var(--white);
+        opacity: 50%;
+        margin: 0;
+        font-size: 11px;
+    }
+
+    #jon-header {
+        width: 263px;
+        height: 48px;
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--white);
+        position: absolute;
+        top: 611px;
+        left: 56px;
+        margin: 0;
+    }
+
+    #jon-comment {
+        width: 263px;
+        height: 72px;
+        font-size: 13px;
+        line-height: 18px;
+        color: var(--white);
+        opacity: 70%;
+        position: absolute;
+        top: 675px;
+        left: 56px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #left-white-div {
+        width: 326px;
+        height: 220px;
+        padding: 1px;
+        border-radius: 8px;
+        background-color: var(--white);
+        grid-row: 3/4;
+    }
+
+    #jean-img-name {
+        width: 134px;
+        height: 28px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 824px;
+        left: 56px;
+        margin: 5px 0 0 0;
+    }
+
+    #last-name-ver {
+        width: 89px;
+        height: 28px;
+        margin: 0 0 0 17.5px;
+    }
+
+    #jean-name {
+        width: 89px;
+        height: 13px;
+        color: var(--blackish-blue);
+        margin: 0 0 2px 0;
+        font-size: 13px;
+    }
+
+    #is-jean-ver {
+        width: 76px;
+        height: 11px;
+        color: var(--blackish-blue);
+        opacity: 50%;
+        margin: 0;
+        font-size: 11px;
+    }
+
+    #jeanette-header {
+        width: 263px;
+        height: 48px;
+        font-size: 20px;
+        font-weight: 600;
+         color: var(--grayish-blue);
+        position: absolute;
+        top: 875px;
+        left: 56px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #jeanette-comment {
+        width: 263px;
+        height: 54px;
+        font-size: 13px;
+        line-height: 18px;
+        color: var(--grayish-blue);
+        opacity: 70%;
+        position: absolute;
+        top: 939px;
+        left: 56px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #black-div {
+        width: 326px;
+        height: 383px;
+        padding: 1px;
+        border-radius: 8px;
+        background-color: #19202D;
+        grid-row: 4/5;
+    }
+
+    #pat-img-name {
+        width: 124px;
+        height: 28px;
+        position: absolute;
+        top: 1075px;
+        left: 56px;
+        display: flex;
+        flex-direction: row;
+        margin: 5px 0 0 0;
+    }
+
+    #pat-pic {
+        border: 2.5px solid var(--moderate-violet);
+    }
+
+    #fourth-name-ver {
+        width: 79px;
+        height: 28px;
+        margin: 0 0 0 17.5px;
+    }
+
+    #pat-name {
+        width: 79px;
+        height: 13px;
+        color: var(--white);
+        margin: 0 0 4px 0;
+        font-size: 13px;
+    }
+
+    #is-pat-ver {
+        width: 76px;
+        height: 11px;
+        color: var(--white);
+        opacity: 50%;
+        margin: 0;
+        font-size: 11px;
+    }
+
+    #pat-header {
+        width: 263px;
+        height: 100px;
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--white);
+        position: absolute;
+        top: 1121px;
+        left: 56px;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 10px 0 0 0;
+    }
+
+    #pat-comment {
+        width: 266px;
+        height: 144px;
+        font-size: 13px;
+        line-height: 18px;
+        color: var(--white);
+        opacity: 70%;
+        position: absolute;
+        top: 1257px;
+        left: 56px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    #right-white-div {
+        width: 326px;
+        height: 438px;
+        padding: 1px;
+        border-radius: 8px;
+        background-color: var(--white);
+        grid-row: 5/5;
+    }
+
+    #kira-img-name {
+        width: 121px;
+        height: 28px;
+        position: absolute;
+        top: 1483px;
+        left: 56px;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    #second-name-ver {
+        width: 76px;
+        height: 28px;
+        margin: 0 0 0 17.5px;
+    }
+
+    #kira-name {
+        width: 60px;
+        height: 13px;
+        color: var(--blackish-blue);
+        margin: 0 0 4px 0;
+        font-size: 13px;
+    }
+
+    #is-kira-ver {
+        width: 76px;
+        height: 11px;
+        color: var(--blackish-blue);
+        opacity: 50%;
+        margin: 0;
+        font-size: 11px;
+    }
+
+    #kira-header {
+        width: 263px;
+        height: 48px;
+        font-size: 20px;
+        font-weight: 600;
+        position: absolute;
+        top: 1529px;
+        left: 56px;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    #kira-comment {
+        width: 263px;
+        height: 270px;
+        font-size: 13px;
+        line-height: 18px;
+        opacity: 70%;
+        position: absolute;
+        top: 1593px;
+        left: 56px;
+        margin: 0;
+        padding: 0;
+    }
+}
